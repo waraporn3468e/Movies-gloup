@@ -126,7 +126,7 @@ a.login-btn{ display:inline-block; margin-top:10px; padding:8px 14px; background
 
         <div class="pw-row">
             <input id="password" type="password" name="password" placeholder="รหัสผ่าน" required aria-label="รหัสผ่าน">
-            <button type="button" class="pw-toggle" onclick="togglePassword('password', this)" aria-label="แสดง/ซ่อน รหัสผ่าน">👁️</button>
+            <button type="button" class="pw-toggle" onclick="togglePassword('password', this)" aria-label="แสดง/ซ่อน รหัสผ่าน"></button>
         </div>
 
         <input type="file" name="profile_pic" accept="image/*">
